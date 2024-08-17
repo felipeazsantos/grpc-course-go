@@ -23,5 +23,6 @@ func main() {
 
 	// doGreet(c)
 	// doGreatManyTimes(c)
-	doLongGreet(c)
+	// doLongGreet(c)
+	doGreetEveryone(c)
 }
