@@ -23,4 +23,6 @@ func main() {
 	id := createBlog(c)
 	readBlog(c, id)
 	readBlog(c, "aNonExistingId")
+	updateBlog(c, id)
+	readBlog(c, id)
 }
